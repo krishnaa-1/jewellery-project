@@ -1,0 +1,6 @@
+.Jewellist{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 3em;
+    justify-content: center;
+}

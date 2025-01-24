@@ -1,0 +1,162 @@
+.Navbar{
+    background-color: rgb(183, 233, 213) ;
+    height: fit-content;
+    width: 100%;
+    z-index: 0;
+}
+.div1{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.Logo{
+    height: 4em;
+    border-radius: 0.7em;
+    margin: 0 36% 0 1%;
+    cursor: pointer;
+}
+.Title{
+    font-size: 4em;
+    margin: 0 32% 0 0;
+    cursor: pointer;
+}
+.Facebook_logo{
+    height: 1.5em;
+    border-radius: 0.2em;
+    margin-right: 0.6%;
+    cursor: pointer;
+}
+.Insta_logo{
+    height: 1.5em;
+    border-radius: 0.2em;
+    margin-right: 0.6%;
+    cursor: pointer;
+}
+.Twitter_logo{
+    height: 1.5em;
+    border-radius: 0.2em;
+    margin-right: 0.6%;
+    cursor: pointer;
+}
+.div2{
+    position:sticky;
+    z-index: 1;
+}
+.div2_first{
+    display: flex;
+    align-items: center;
+    gap: em;
+    padding: 0.5em;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 35em;
+    height: 2em;
+    border: none;
+    border-radius: 1.5em;
+    background-color: #ffffff;
+    padding:0.2em;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.1);
+    margin: 0 45% 0 5.2%;
+}
+.searchbox{
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: white;
+    height: 1em;
+    width: 20em;
+    padding: 0.5em;
+    font-size: 16px;
+    border-radius: 1.5em;
+}
+.searchbutton {
+    background-color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+.searchbutton:hover {
+    background-color: #afafaf;
+} 
+.searchicon{
+    width: 1em;
+    height: 1em;
+    border: none;
+}
+.cartimg{
+    width: 2em;
+    height: 2em;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.favimg{
+    width: 2em;
+    height: 2em;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.Navi_cart_icon{
+    display: flex;
+    margin-right: 1em;
+}
+.Navi_Fav_icon{
+    display: flex;
+    margin-right: 1em;
+}
+.cartcount{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+}
+.favcount{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+}
+.Account_page{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.ebng{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.Earing_page{
+    width: 15%;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.Bracelet_page{
+    width: 15%;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif; 
+    cursor: pointer;  
+}
+.Necklace_page{
+    width: 15%;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.Giftcard_page{
+    width: 15%;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.link{
+    text-decoration: none;
+}

@@ -1,0 +1,63 @@
+.jewellcard{
+    height: 21em;
+    width: 15.5em;
+    background-color:rgb(255, 255, 255);
+    border-radius: 1em ;
+    box-shadow: 0 5px 5px 5px rgba(48, 48, 48, 0.1); /* Shadow effect */
+    cursor: pointer;
+    transition: box-shadow 0.2s ease-in-out; /* Smooth transition */
+}
+.jewellcard:hover{
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.7); /* Shadow on hover */
+}
+.jewellcard_img{
+    height: 13em;
+    width: 100%;
+    border-radius: 1em;
+    margin-bottom: 0.5em;
+}
+.jewellcard_name_price{
+    text-align: center;
+    height: 3em;
+}
+.jewellcard_name{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 0.2em;
+}
+.jewellcard_price{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+.jewellcard_cart_fav{
+    padding: 0.4em;
+}
+.jewellcard_cartbutton{
+    height: 3em;
+    width: 8.45em;
+    border-radius: 1.5em;
+    padding: 0.4em;
+    margin-right: 0.4em;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    cursor: pointer;
+    transition: box-shadow 0.2s ease-in-out; /* Smooth transition */
+}
+.jewellcard_cartbutton:hover{
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+.jewellcard_favbutton{
+    height: 3em;
+    width: 8.45em;
+    border-radius: 1.5em;
+    padding: 0.4em;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    cursor: pointer;
+    transition: box-shadow 0.2s ease-in-out; /* Smooth transition */
+}
+.jewellcard_favbutton:hover{
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
