@@ -47,6 +47,7 @@
     align-items: center;
     gap: em;
     padding: 0.5em;
+    width: auto;    
 }
 .search-container {
     display: flex;

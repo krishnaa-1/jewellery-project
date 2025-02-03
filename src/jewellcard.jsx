@@ -2,7 +2,9 @@ import React from "react";
 import { Component } from "react";
 import "./Jewellcard.css";
 
+
 class Jewellcard extends Component {
+    
     render(){
         const {id,Title,Price,Img_url,onaddtocart,onaddtofav} = this.props;
         return(
